@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-jest-boilerplate",
+  "name": "lets-chat-server",
   "version": "0.0.1",
   "description": "This is a boilerplate for Node JS with Typescript, Jest and supertest.",
   "main": "index.js",

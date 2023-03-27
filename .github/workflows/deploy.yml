@@ -39,5 +39,5 @@ jobs:
       env:
         user_name: 'utkarsh-sanjivan'
         user_email: 'utkarsh.sannu@gmail.com'
-        github_token: ${{ secrets.TOKEN_FOR_REPO_DEPLOY }}
+        github_token: ${{ secrets.TOKEN_FOR_REPO_DEPLOYING }}
         repository: 'utkarsh-sanjivan/lets-chat-server'

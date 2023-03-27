@@ -16,7 +16,7 @@
     "test:watch": "jest --config=./jest-config.json --watchAll",
     "test:watch-coverage": "jest --config=./jest-config.json --coverage --watchAll",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next"
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {

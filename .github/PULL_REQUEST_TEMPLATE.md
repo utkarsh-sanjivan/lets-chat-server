@@ -8,7 +8,7 @@ Describe testing instruction on the local.
 Add snapshots or designs to describe the changes that are to expected to be seen.
 
 ### PR Requirements
- - [] This PR has updated master code.
- - [] This PR has the updated Readme.
- - [] This PR has added/updated test cases.
- - [] This PR has provided proper descriptio, testing steps etc.
+ - [ ] This PR has updated master code.
+ - [ ] This PR has the updated Readme.
+ - [ ] This PR has added/updated test cases.
+ - [ ] This PR has provided proper descriptio, testing steps etc.

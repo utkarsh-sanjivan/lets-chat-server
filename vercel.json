@@ -1,0 +1,10 @@
+{
+	"version": 1,
+	"name": "lets-chat-server",
+	"builds": [
+		{ "src": "app.js", "use": "@vercel/node" }
+	],
+	"routes": [
+		{ "src": "/v1/(.*)", "dest": "/app.js" }
+	]
+}

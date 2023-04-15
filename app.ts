@@ -1,14 +1,14 @@
-import cors from 'cors';
-import express from 'express';
-import helmet from 'helmet';
-import httpStatus from 'http-status';
-import xss from 'xss-clean';
-import ApiError from './utils/apiError';
-import authLimiter from './middlewares/rateLimiter';
-import config from './config/config';
-import { errorConverter, errorHandler } from './middlewares/error';
-import morgan from './config/morgan';
-import routes from './routes/index';
+const cors = require('cors');
+const express = require('express');
+const helmet = require('helmet');
+const httpStatus = require('http-status');
+const xss = require('xss-clean');
+const ApiError = require('./utils/apiError');
+const authLimiter = require('./middlewares/rateLimiter');
+const config = require('./config/config');
+const { errorConverter, errorHandler } = require('./middlewares/error');
+const morgan = require('./config/morgan');
+const routes = require('./routes/index');
 
 const app = express();
 
@@ -49,4 +49,4 @@ app.use(errorConverter);
 // handle error
 app.use(errorHandler);
 
-export default app;
+module.exports = app;

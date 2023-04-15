@@ -1,2 +1,2 @@
-# node-js-jest-boilerplate
-This is a boilerplate for Node JS with Jest and supertest.
+# lets-chat-server
+This is a backend server for Lets Chat Application build on Node JS.
